@@ -1,4 +1,4 @@
-package edu.tomer.java;
+package edu.tomer.java.zoo;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

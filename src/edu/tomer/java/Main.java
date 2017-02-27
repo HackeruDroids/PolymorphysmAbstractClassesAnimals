@@ -1,16 +1,15 @@
 package edu.tomer.java;
 
-import java.time.LocalDateTime;
+
+import edu.tomer.java.shapes.Color;
 
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        Animal a = new Cow();
-        a.makeSound();
+
+        Color c = Color.getColor(2);
+        System.out.println(c);
 
 
-        Animal cow = new Cow(LocalDateTime.of(1996, 7, 5, 0, 0));
-        System.out.println(cow.getAge());
     }
 }
